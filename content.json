@@ -50,8 +50,8 @@
       "active": true,
       "eventDate": "2026-06-14",
       "time": "14:00",
-      "url": "#",
-      "extra": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2560278",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2560278",
+      "extra": "+ Q&A WITH INDUSTRY GUESTS",
       "title": "NEUROSPICY III",
       "pinned": false,
       "rating": "15"
