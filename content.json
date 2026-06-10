@@ -29,7 +29,7 @@
     "extra": "DOUBLE BILL",
     "url": "#",
     "color": "rio-forever",
-    "pinned": true,
+    "pinned": false,
     "active": true
   },
   {
@@ -41,7 +41,7 @@
     "extra": "+ INTRO WITH ROSALIE VARDA",
     "url": "#",
     "color": "rio-forever",
-    "pinned": true,
+    "pinned": false,
     "active": true
   },
   {
@@ -53,7 +53,7 @@
     "extra": "",
     "url": "#",
     "color": "rio-forever",
-    "pinned": true,
+    "pinned": false,
     "active": true
   },
   {
@@ -65,7 +65,7 @@
     "extra": "",
     "url": "#",
     "color": "carers-babies",
-    "pinned": true,
+    "pinned": false,
     "active": true
   },
   {
@@ -77,7 +77,7 @@
     "extra": "",
     "url": "#",
     "color": "classic-matinee",
-    "pinned": true,
+    "pinned": false,
     "active": true
   },
   {
@@ -89,7 +89,7 @@
     "extra": "",
     "url": "#",
     "color": "hard-of-hearing",
-    "pinned": true,
+    "pinned": false,
     "active": true
   },
   {
@@ -101,7 +101,7 @@
     "extra": "+ Q&A WITH CLAUDIA WEILL",
     "url": "#",
     "color": "rio-forever",
-    "pinned": true,
+    "pinned": false,
     "active": true
   },
   {
@@ -113,7 +113,7 @@
     "extra": "+ SHORTS",
     "url": "#",
     "color": "special",
-    "pinned": true,
+    "pinned": false,
     "active": true
   },
   {
@@ -125,7 +125,7 @@
     "extra": "",
     "url": "#",
     "color": "rio-forever",
-    "pinned": true,
+    "pinned": false,
     "active": true
   },
   {
@@ -137,7 +137,7 @@
     "extra": "+ KIDS CRAFT ACTIVITIES",
     "url": "#",
     "color": "family-flicks",
-    "pinned": true,
+    "pinned": false,
     "active": true
   }
 ],
