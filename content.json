@@ -143,19 +143,19 @@
   ],
   "moreLinks": [
     {
-      "title": "View our full What's On",
+      "active": true,
+      "title": "Find out What's On",
       "url": "https://riocinema.org.uk/Rio.dll/WhatsOn",
-      "icon": "theatres",
-      "active": true
+      "icon": "newspaper"
     },
     {
-      "title": "Become a Rio Member today",
+      "title": "Become a Member",
       "url": "https://riocinema.org.uk/Rio.dll/Page?p=1745&m=m",
       "icon": "star",
       "active": true
     },
     {
-      "title": "Sign up to our weekly newsletter",
+      "title": "Sign up to the Newsletter",
       "url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_731486.TcsWebTab_731487",
       "icon": "mail",
       "active": true
@@ -164,12 +164,6 @@
       "title": "Get your limited edition Merch",
       "url": "https://www.instagram.com/p/DZIDQK2iANa/",
       "icon": "shopping_bag",
-      "active": true
-    },
-    {
-      "title": "Rio Forever in the Press",
-      "url": "#",
-      "icon": "newspaper",
       "active": true
     }
   ]
