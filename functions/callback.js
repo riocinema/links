@@ -10,7 +10,8 @@ export async function onRequestGet({ request, env }) {
     method: "POST",
     headers: {
       "Accept": "application/json",
-      "Content-Type": "application/json"
+      "Content-Type": "application/json",
+      "User-Agent": "rio-links-cms"
     },
     body: JSON.stringify({
       client_id: env.GITHUB_CLIENT_ID,
@@ -22,27 +23,28 @@ export async function onRequestGet({ request, env }) {
   const tokenData = await tokenResponse.json();
 
   if (!tokenData.access_token) {
-    return new Response(JSON.stringify(tokenData), {
+    return new Response(JSON.stringify(tokenData, null, 2), {
       status: 400,
       headers: { "Content-Type": "application/json" }
     });
   }
 
-  const authData = {
+  const message = `authorization:github:success:${JSON.stringify({
     token: tokenData.access_token,
     provider: "github"
-  };
+  })}`;
 
   return new Response(`
     <!doctype html>
     <html>
       <body>
         <script>
-          window.opener.postMessage(
-            "authorization:github:success:${JSON.stringify(authData).replace(/"/g, '\\"')}",
-            window.location.origin
-          );
-          window.close();
+          if (window.opener) {
+            window.opener.postMessage(${JSON.stringify(message)}, "*");
+            window.close();
+          } else {
+            document.body.innerText = "Authentication complete. You can close this window.";
+          }
         </script>
       </body>
     </html>
