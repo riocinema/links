@@ -40,7 +40,9 @@ a {
 .top-links {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 12px;
+  width: 100%;
   font-size: 10px;
   line-height: 1.4;
   text-transform: uppercase;
@@ -48,6 +50,12 @@ a {
 
 .top-links a {
   text-decoration: underline;
+  min-width: 0;
+}
+
+.top-links a:last-child {
+  margin-left: auto;
+  text-align: right;
 }
 
 .rule {
@@ -214,6 +222,10 @@ a {
   width: auto;
   margin-left: 0.18em;
   vertical-align: -0.08em;
+}
+
+.bbfc-icon[alt="NR"] {
+  height: 0.8em;
 }
 
 .arrow {
