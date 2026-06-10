@@ -32,7 +32,7 @@ async function loadContent() {
 }
 
 function icon(name) {
-  return `<span class="material-icons-outlined" aria-hidden="true">${name}</span>`;
+  return `<span class="material-symbols-outlined" aria-hidden="true">${name}</span>`;
 }
 
 function ratingIcon(rating) {
