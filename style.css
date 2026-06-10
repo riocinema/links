@@ -121,7 +121,7 @@ a {
   color: var(--accent, var(--white));
 }
 
-.featured-icon .material-icons-outlined {
+.featured-icon .material-symbols-outlined {
   font-size: 34px;
 }
 
@@ -237,7 +237,7 @@ a {
   color: var(--white);
 }
 
-.arrow .material-icons-outlined {
+.arrow .material-symbols-outlined {
   font-size: 26px;
 }
 
@@ -255,7 +255,7 @@ a {
   color: var(--white);
 }
 
-.more-icon .material-icons-outlined {
+.more-icon .material-symbols-outlined {
   font-size: 22px;
 }
 
@@ -268,7 +268,7 @@ a {
   text-transform: uppercase;
 }
 
-.more-link .arrow .material-icons-outlined {
+.more-link .arrow .material-symbols-outlined {
   font-size: 22px;
 }
 
