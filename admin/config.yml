@@ -19,8 +19,9 @@ collections:
           - label: "Featured Links"
             name: "featured"
             widget: "list"
+            summary: "{{fields.active}} — {{fields.label}} — {{fields.title}}"
             fields:
-              - { label: "Active", name: "active", widget: "boolean", default: true }
+              - { label: "Show on page?", name: "active", widget: "boolean", default: true }
               - { label: "Label", name: "label", widget: "string" }
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
@@ -29,37 +30,38 @@ collections:
                 name: "color"
                 widget: "select"
                 options:
-                  - "special"
-                  - "classic-matinee"
-                  - "carers-babies"
-                  - "hard-of-hearing"
-                  - "pink-palace"
-                  - "family-flicks"
-                  - "rio-forever"
+                  - { label: "Special Event / Q&A — Green", value: "special" }
+                  - { label: "Classic Matinee — Purple", value: "classic-matinee" }
+                  - { label: "Carers & Babies — Baby Pink", value: "carers-babies" }
+                  - { label: "Hard of Hearing — Blue", value: "hard-of-hearing" }
+                  - { label: "Pink Palace — Pink", value: "pink-palace" }
+                  - { label: "Family Flicks — Yellow", value: "family-flicks" }
+                  - { label: "Rio Forever — Red", value: "rio-forever" }
               - label: "Icon"
                 name: "icon"
                 widget: "select"
                 options:
-                  - "star"
-                  - "newspaper"
-                  - "mail"
-                  - "shopping_bag"
-                  - "confirmation_number"
-                  - "campaign"
-                  - "groups"
-                  - "favorite"
-                  - "celebration"
-                  - "volunteer_activism"
-                  - "movie"
-                  - "local_movies"
-                  - "event"
+                  - { label: "Star", value: "star" }
+                  - { label: "Newspaper", value: "newspaper" }
+                  - { label: "Mail", value: "mail" }
+                  - { label: "Shopping Bag", value: "shopping_bag" }
+                  - { label: "Ticket / Voucher", value: "confirmation_number" }
+                  - { label: "Campaign", value: "campaign" }
+                  - { label: "Groups", value: "groups" }
+                  - { label: "Heart", value: "favorite" }
+                  - { label: "Celebration", value: "celebration" }
+                  - { label: "Volunteer / Support", value: "volunteer_activism" }
+                  - { label: "Movie", value: "movie" }
+                  - { label: "Local Movies", value: "local_movies" }
+                  - { label: "Calendar Event", value: "event" }
 
           - label: "Events"
             name: "events"
             widget: "list"
+            summary: "{{fields.active}} — {{fields.eventDate}} {{fields.time}} — {{fields.title}}"
             fields:
-              - { label: "Active", name: "active", widget: "boolean", default: true }
-              - { label: "Pinned", name: "pinned", widget: "boolean", default: false }
+              - { label: "Show on page?", name: "active", widget: "boolean", default: true }
+              - { label: "Pin to top?", name: "pinned", widget: "boolean", default: false }
               - { label: "Event Date", name: "eventDate", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
               - { label: "Time", name: "time", widget: "string", pattern: ['^([01]\d|2[0-3]):[0-5]\d$', "Use 24-hour time, e.g. 18:30"] }
               - { label: "Strand", name: "strand", widget: "string" }
@@ -69,48 +71,49 @@ collections:
                 widget: "select"
                 required: false
                 options:
-                  - ""
-                  - "U"
-                  - "PG"
-                  - "12A"
-                  - "15"
-                  - "18"
-                  - "NR"
+                  - { label: "No rating", value: "" }
+                  - { label: "U", value: "U" }
+                  - { label: "PG", value: "PG" }
+                  - { label: "12A", value: "12A" }
+                  - { label: "15", value: "15" }
+                  - { label: "18", value: "18" }
+                  - { label: "Not Rated / NR", value: "NR" }
               - { label: "Extra Line", name: "extra", widget: "string", required: false }
               - { label: "URL", name: "url", widget: "string" }
               - label: "Colour"
                 name: "color"
                 widget: "select"
                 options:
-                  - "special"
-                  - "classic-matinee"
-                  - "carers-babies"
-                  - "hard-of-hearing"
-                  - "pink-palace"
-                  - "family-flicks"
-                  - "rio-forever"
+                  - { label: "Special Event / Q&A — Green", value: "special" }
+                  - { label: "Classic Matinee — Purple", value: "classic-matinee" }
+                  - { label: "Carers & Babies — Baby Pink", value: "carers-babies" }
+                  - { label: "Hard of Hearing — Blue", value: "hard-of-hearing" }
+                  - { label: "Pink Palace — Pink", value: "pink-palace" }
+                  - { label: "Family Flicks — Yellow", value: "family-flicks" }
+                  - { label: "Rio Forever — Red", value: "rio-forever" }
 
           - label: "Find Out More Links"
             name: "moreLinks"
             widget: "list"
+            summary: "{{fields.active}} — {{fields.title}}"
             fields:
-              - { label: "Active", name: "active", widget: "boolean", default: true }
+              - { label: "Show on page?", name: "active", widget: "boolean", default: true }
               - { label: "Title", name: "title", widget: "string" }
               - { label: "URL", name: "url", widget: "string" }
               - label: "Icon"
                 name: "icon"
                 widget: "select"
                 options:
-                  - "star"
-                  - "newspaper"
-                  - "mail"
-                  - "shopping_bag"
-                  - "confirmation_number"
-                  - "campaign"
-                  - "groups"
-                  - "favorite"
-                  - "celebration"
-                  - "volunteer_activism"
-                  - "movie"
-                  - "theaters"
-                  - "event"
+                  - { label: "Star", value: "star" }
+                  - { label: "Newspaper", value: "newspaper" }
+                  - { label: "Mail", value: "mail" }
+                  - { label: "Shopping Bag", value: "shopping_bag" }
+                  - { label: "Ticket / Voucher", value: "confirmation_number" }
+                  - { label: "Campaign", value: "campaign" }
+                  - { label: "Groups", value: "groups" }
+                  - { label: "Heart", value: "favorite" }
+                  - { label: "Celebration", value: "celebration" }
+                  - { label: "Volunteer / Support", value: "volunteer_activism" }
+                  - { label: "Movie", value: "movie" }
+                  - { label: "Local Movies", value: "local_movies" }
+                  - { label: "Calendar Event", value: "event" }
