@@ -1,3 +1,12 @@
+const bbfcRatings = {
+  U: "https://images.savoysystems.co.uk/global/images/bbfc/lrg/U.png",
+  PG: "https://images.savoysystems.co.uk/global/images/bbfc/lrg/PG.png",
+  "12A": "https://images.savoysystems.co.uk/global/images/bbfc/lrg/12A.png",
+  15: "https://images.savoysystems.co.uk/global/images/bbfc/lrg/15.png",
+  18: "https://images.savoysystems.co.uk/global/images/bbfc/lrg/18.png",
+  NR: "https://mcusercontent.com/bcd2d958958984b82b6f5e110/images/ded7c49d-4c63-2ea6-a7dc-bb9ff9a16346.png"
+};
+
 async function loadContent() {
   try {
     const response = await fetch("content.json");
@@ -22,9 +31,27 @@ async function loadContent() {
   }
 }
 
-
 function icon(name) {
   return `<span class="material-icons-outlined" aria-hidden="true">${name}</span>`;
+}
+
+function ratingIcon(rating) {
+  if (!rating || !bbfcRatings[rating]) return "";
+
+  return `<img
+    class="bbfc-icon"
+    src="${bbfcRatings[rating]}"
+    alt="${rating}"
+    loading="lazy"
+  >`;
+}
+
+function titleWithRating(title, rating) {
+  if (!rating || !bbfcRatings[rating]) return title;
+
+  const icon = ratingIcon(rating);
+
+  return title.replace(/(\S+)$/, `<span class="title-lock">$1${icon}</span>`);
 }
 
 function renderFeatured(items) {
@@ -62,7 +89,7 @@ function renderEvents(events) {
 
       <span class="event-info">
         <span class="label">${event.strand}</span>
-        <strong>${event.title}</strong>
+        <strong>${titleWithRating(event.title, event.rating)}</strong>
         ${event.extra ? `<small>${event.extra}</small>` : ""}
         <em>${event.time}</em>
       </span>
