@@ -1,0 +1,177 @@
+{
+  "featured": [
+    {
+      "label": "RIO FOREVER",
+      "title": "50 Years of the Rio",
+      "subtitle": "EXPLORE THE YEAR-LONG PROGRAMME",
+      "url": "#",
+      "color": "rio-forever",
+      "icon": "★",
+      "active": true
+    },
+    {
+      "label": "IN THE PRESS",
+      "title": "Rio Forever in the Press",
+      "subtitle": "READ OUR LATEST FEATURE",
+      "url": "#",
+      "color": "special",
+      "icon": "▤",
+      "active": true
+    }
+  ],
+  "events": [
+    {
+      "day": "FRI",
+      "date": "12",
+      "month": "JUN",
+      "strand": "RIO FOREVER & CATEGORY H",
+      "title": "SISTERS & ALMOST DEAD",
+      "extra": "DOUBLE BILL",
+      "time": "23:30",
+      "url": "#",
+      "color": "rio-forever",
+      "active": true
+    },
+    {
+      "day": "SAT",
+      "date": "13",
+      "month": "JUN",
+      "strand": "RIO FOREVER & VARDA FILM CLUB",
+      "title": "FACES PLACES",
+      "extra": "+ INTRO WITH ROSALIE VARDA",
+      "time": "17:00",
+      "url": "#",
+      "color": "rio-forever",
+      "active": true
+    },
+    {
+      "day": "SUN",
+      "date": "14",
+      "month": "JUN",
+      "strand": "RIO FOREVER & NEUROSPICY",
+      "title": "NEUROSPICY III",
+      "extra": "",
+      "time": "14:00",
+      "url": "#",
+      "color": "rio-forever",
+      "active": true
+    },
+    {
+      "day": "MON",
+      "date": "15",
+      "month": "JUN",
+      "strand": "CARERS & BABIES",
+      "title": "DISCLOSURE DAY",
+      "extra": "",
+      "time": "11:00",
+      "url": "#",
+      "color": "carers-babies",
+      "active": true
+    },
+    {
+      "day": "MON",
+      "date": "15",
+      "month": "JUN",
+      "strand": "CLASSIC MATINEE",
+      "title": "JAWS",
+      "extra": "",
+      "time": "14:30",
+      "url": "#",
+      "color": "classic-matinee",
+      "active": true
+    },
+    {
+      "day": "MON",
+      "date": "15",
+      "month": "JUN",
+      "strand": "HARD OF HEARING",
+      "title": "DISCLOSURE DAY",
+      "extra": "",
+      "time": "17:30",
+      "url": "#",
+      "color": "hard-of-hearing",
+      "active": true
+    },
+    {
+      "day": "TUE",
+      "date": "16",
+      "month": "JUN",
+      "strand": "RIO FILM FEMINISTS",
+      "title": "GIRLFRIENDS",
+      "extra": "+ Q&A WITH CLAUDIA WEILL",
+      "time": "18:30",
+      "url": "#",
+      "color": "rio-forever",
+      "active": true
+    },
+    {
+      "day": "WED",
+      "date": "17",
+      "month": "JUN",
+      "strand": "TV PARTY, TONIGHT!",
+      "title": "SAUL BASS: THE ART OF THE TITLE",
+      "extra": "+ SHORTS",
+      "time": "19:00",
+      "url": "#",
+      "color": "special",
+      "active": true
+    },
+    {
+      "day": "THU",
+      "date": "18",
+      "month": "JUN",
+      "strand": "RIO FOREVER & ARABIC CINEMA CLUB",
+      "title": "PRESENTED BY NIHAL EL AASAR",
+      "extra": "",
+      "time": "19:30",
+      "url": "#",
+      "color": "rio-forever",
+      "active": true
+    },
+    
+      {
+      "day": "SAT",
+      "date": "20",
+      "month": "JUN",
+      "strand": "SATURDAY MORNING PICTURE CLUB",
+      "title": "SPY KIDS",
+      "extra": "+ KIDS CRAFT ACTIVITIES",
+      "time": "10:15",
+      "url": "#",
+      "color": "family-flicks",
+      "active": true
+    }
+  ],
+  "moreLinks": [
+    {
+      "title": "Become a Member",
+      "url": "#",
+      "icon": "☆",
+      "active": true
+    },
+    {
+      "title": "Merch",
+      "url": "#",
+      "icon": "▢",
+      "active": true
+    },
+    {
+      "title": "Rio Forever in the Press",
+      "url": "#",
+      "icon": "▤",
+      "active": true
+    },
+    {
+      "title": "Newsletter",
+      "url": "#",
+      "icon": "✉",
+      "active": true
+    },
+    {
+      "title": "Gift Vouchers",
+      "url": "#",
+      "icon": "▣",
+      "active": true
+    }
+  ]
+}

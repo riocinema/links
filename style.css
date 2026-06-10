@@ -1,0 +1,336 @@
+:root {
+  --black: #141414;
+  --white: #ffffff;
+  --muted: #d8d8d8;
+  --line: rgba(255, 255, 255, 0.78);
+
+  --special: #9dd2aa;
+  --classic-matinee: #ab90c4;
+  --carers-babies: #e9b2ca;
+  --hard-of-hearing: #bacbf7;
+  --pink-palace: #ea9bc6;
+  --family-flicks: #fef69f;
+  --rio-forever: #de525c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--black);
+  color: var(--white);
+  font-family: "Space Mono", Courier, monospace;
+  font-weight: 400;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.page {
+  width: 100%;
+  max-width: 430px;
+  margin: 0 auto;
+  padding: 12px;
+}
+
+.top-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 10px;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.top-links a {
+  text-decoration: underline;
+}
+
+.rule {
+  height: 1px;
+  background: var(--line);
+  margin: 12px 12px 0px 0px;
+}
+
+.site-header {
+  padding: 20px 0;
+}
+
+.logo-link {
+  display: inline-block;
+  width: 34%;
+  min-width: 145px;
+  max-width: 210px;
+}
+
+.rio-logo {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.section {
+  padding: 8px 12px 0px 0px;
+}
+
+.section h2 {
+  margin: 0 0 8px;
+  font-size: 15px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.featured-link,
+.event-link,
+.more-link {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  min-height: 94px;
+  padding: 16px 0;
+  border-top: 1px solid var(--line);
+}
+
+.featured-link:last-child,
+.event-link:last-child,
+.more-link:last-child {
+  border-bottom: 1px solid var(--line);
+}
+
+.featured-icon {
+  display: grid;
+  place-items: center;
+  width: 58px;
+  height: 74px;
+  flex: 0 0 58px;
+  color: var(--accent, var(--white));
+}
+
+.featured-icon .material-icons-outlined {
+  font-size: 34px;
+}
+
+.featured-copy,
+.event-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.label {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--accent, var(--white));
+  font-size: 10px;
+  line-height: 1.1;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.featured-link strong,
+.event-info strong {
+  display: block;
+  font-family: "Arimo", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.04;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+
+.event-info small {
+  display: block;
+  margin-top: 3px;
+  color: var(--white);
+  font-family: "Arimo", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.08;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+
+.featured-link small {
+  display: block;
+  margin-top: 4px;
+  color: var(--white);
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.event-info em {
+  display: block;
+  margin-top: 5px;
+  color: var(--white);
+  font-size: 11px;
+  line-height: 1.1;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.calendar {
+  display: grid;
+  grid-template-rows: 1fr 1.5fr 1fr;
+  align-items: center;
+  justify-items: center;
+  width: 60px;
+  height: 74px;
+  flex: 0 0 60px;
+  border: 1px solid var(--white);
+  color: var(--white);
+  text-transform: uppercase;
+  padding: 7px 0;
+}
+
+.calendar span {
+  font-family: "Space Mono", Courier, monospace;
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.calendar strong {
+  font-family: "Plus Jakarta Sans", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  line-height: 0.9;
+  font-weight: 700;
+  letter-spacing: 0em;
+}
+
+.arrow {
+  display: grid;
+  place-items: center;
+  margin-left: auto;
+  color: var(--white);
+}
+
+.arrow .material-icons-outlined {
+  font-size: 26px;
+}
+
+.more-link {
+  min-height: 42px;
+  padding: 7px 0;
+  gap: 12px;
+}
+
+.more-icon {
+  display: grid;
+  place-items: center;
+  width: 30px;
+  flex: 0 0 30px;
+  color: var(--white);
+}
+
+.more-icon .material-icons-outlined {
+  font-size: 22px;
+}
+
+.more-link strong {
+  flex: 1;
+  font-family: "Space Mono", Courier, monospace;
+  font-size: 13px;
+  line-height: 1.1;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.more-link .arrow .material-icons-outlined {
+  font-size: 22px;
+}
+
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 24px 0 10px;
+}
+
+.site-footer a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11px;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.site-footer img {
+  height: 17px;
+  width: auto;
+  display: block;
+}
+
+.accent-special { --accent: var(--special); }
+.accent-classic-matinee { --accent: var(--classic-matinee); }
+.accent-carers-babies { --accent: var(--carers-babies); }
+.accent-hard-of-hearing { --accent: var(--hard-of-hearing); }
+.accent-pink-palace { --accent: var(--pink-palace); }
+.accent-family-flicks { --accent: var(--family-flicks); }
+.accent-rio-forever { --accent: var(--rio-forever); }
+
+@media (max-width: 420px) {
+  .page {
+    max-width: 390px;
+    padding: 10px;
+  }
+
+  .top-links {
+    font-size: 9px;
+  }
+
+  .featured-link,
+  .event-link {
+    gap: 16px;
+    min-height: 90px;
+    padding: 15px 0;
+  }
+
+  .featured-link strong,
+  .event-info strong {
+    font-size: 18px;
+  }
+
+  .event-info small {
+    font-size: 12px;
+  }
+
+  .event-info em {
+    font-size: 11px;
+  }
+
+  .calendar,
+  .featured-icon {
+    width: 60px;
+    height: 72px;
+    flex-basis: 60px;
+  }
+
+  .calendar span {
+    font-size: 11px;
+  }
+
+  .calendar strong {
+    font-size: 30px;
+  }
+
+  .site-footer span {
+    display: none;
+  }
+
+  .site-footer {
+    justify-content: center;
+    gap: 36px;
+  }
+
+  .site-footer img {
+    height: 20px;
+  }
+}
