@@ -2,7 +2,7 @@ backend:
   name: github
   repo: riocinema/links
   branch: main
-  base_url: https://links-dvm.pages.dev
+  base_url: https://decap-proxy.digital-250.workers.dev
 
 media_folder: "uploads"
 public_folder: "/uploads"
