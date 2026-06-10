@@ -204,6 +204,18 @@ a {
   letter-spacing: 0em;
 }
 
+.title-lock {
+  white-space: nowrap;
+}
+
+.bbfc-icon {
+  display: inline-block;
+  height: 0.9em;
+  width: auto;
+  margin-left: 0.18em;
+  vertical-align: -0.08em;
+}
+
 .arrow {
   display: grid;
   place-items: center;
