@@ -20,138 +20,117 @@
     }
   ],
   "events": [
-    {
-      "day": "FRI",
-      "date": "12",
-      "month": "JUN",
-      "strand": "RIO FOREVER & CATEGORY H",
-      "title": "SISTERS & ALMOST DEAD",
-      "rating": "18",
-      "extra": "DOUBLE BILL",
-      "time": "23:30",
-      "url": "#",
-      "color": "rio-forever",
-      "active": true
-    },
-    {
-      "day": "SAT",
-      "date": "13",
-      "month": "JUN",
-      "strand": "RIO FOREVER & VARDA FILM CLUB",
-      "title": "FACES PLACES",
-      "rating": "12A",
-      "extra": "+ INTRO WITH ROSALIE VARDA",
-      "time": "17:00",
-      "url": "#",
-      "color": "rio-forever",
-      "active": true
-    },
-    {
-      "day": "SUN",
-      "date": "14",
-      "month": "JUN",
-      "strand": "RIO FOREVER & NEUROSPICY",
-      "title": "NEUROSPICY III",
-      "rating": "15",
-      "extra": "",
-      "time": "14:00",
-      "url": "#",
-      "color": "rio-forever",
-      "active": true
-    },
-    {
-      "day": "MON",
-      "date": "15",
-      "month": "JUN",
-      "strand": "CARERS & BABIES",
-      "title": "DISCLOSURE DAY",
-      "rating": "12A",
-      "extra": "",
-      "time": "11:00",
-      "url": "#",
-      "color": "carers-babies",
-      "active": true
-    },
-    {
-      "day": "MON",
-      "date": "15",
-      "month": "JUN",
-      "strand": "CLASSIC MATINEE",
-      "title": "JAWS",
-      "rating": "12A",
-      "extra": "",
-      "time": "14:30",
-      "url": "#",
-      "color": "classic-matinee",
-      "active": true
-    },
-    {
-      "day": "MON",
-      "date": "15",
-      "month": "JUN",
-      "strand": "HARD OF HEARING",
-      "title": "DISCLOSURE DAY",
-      "rating": "12A",
-      "extra": "",
-      "time": "17:30",
-      "url": "#",
-      "color": "hard-of-hearing",
-      "active": true
-    },
-    {
-      "day": "TUE",
-      "date": "16",
-      "month": "JUN",
-      "strand": "RIO FILM FEMINISTS",
-      "title": "GIRLFRIENDS",
-      "rating": "15",
-      "extra": "+ Q&A WITH CLAUDIA WEILL",
-      "time": "18:30",
-      "url": "#",
-      "color": "rio-forever",
-      "active": true
-    },
-    {
-      "day": "WED",
-      "date": "17",
-      "month": "JUN",
-      "strand": "TV PARTY, TONIGHT!",
-      "title": "SAUL BASS: THE ART OF THE TITLE",
-      "rating": "18",
-      "extra": "+ SHORTS",
-      "time": "19:00",
-      "url": "#",
-      "color": "special",
-      "active": true
-    },
-    {
-      "day": "THU",
-      "date": "18",
-      "month": "JUN",
-      "strand": "RIO FOREVER & ARABIC CINEMA CLUB",
-      "title": "PRESENTED BY NIHAL EL AASAR",
-      "rating": "NR",
-      "extra": "",
-      "time": "19:30",
-      "url": "#",
-      "color": "rio-forever",
-      "active": true
-    },
-    
-      {
-      "day": "SAT",
-      "date": "20",
-      "month": "JUN",
-      "strand": "SATURDAY MORNING PICTURE CLUB",
-      "title": "SPY KIDS",
-      "rating": "U",
-      "extra": "+ KIDS CRAFT ACTIVITIES",
-      "time": "10:15",
-      "url": "#",
-      "color": "family-flicks",
-      "active": true
-    }
-  ],
+  {
+    "eventDate": "2026-06-12",
+    "time": "23:30",
+    "strand": "RIO FOREVER & CATEGORY H",
+    "title": "SISTERS & ALMOST DEAD",
+    "rating": "18",
+    "extra": "DOUBLE BILL",
+    "url": "#",
+    "color": "rio-forever",
+    "active": true
+  },
+  {
+    "eventDate": "2026-06-13",
+    "time": "17:00",
+    "strand": "RIO FOREVER & VARDA FILM CLUB",
+    "title": "FACES PLACES",
+    "rating": "12A",
+    "extra": "+ INTRO WITH ROSALIE VARDA",
+    "url": "#",
+    "color": "rio-forever",
+    "active": true
+  },
+  {
+    "eventDate": "2026-06-14",
+    "time": "14:00",
+    "strand": "RIO FOREVER & NEUROSPICY",
+    "title": "NEUROSPICY III",
+    "rating": "15",
+    "extra": "",
+    "url": "#",
+    "color": "rio-forever",
+    "active": true
+  },
+  {
+    "eventDate": "2026-06-15",
+    "time": "11:00",
+    "strand": "CARERS & BABIES",
+    "title": "DISCLOSURE DAY",
+    "rating": "12A",
+    "extra": "",
+    "url": "#",
+    "color": "carers-babies",
+    "active": true
+  },
+  {
+    "eventDate": "2026-06-15",
+    "time": "14:30",
+    "strand": "CLASSIC MATINEE",
+    "title": "JAWS",
+    "rating": "12A",
+    "extra": "",
+    "url": "#",
+    "color": "classic-matinee",
+    "active": true
+  },
+  {
+    "eventDate": "2026-06-15",
+    "time": "17:30",
+    "strand": "HARD OF HEARING",
+    "title": "DISCLOSURE DAY",
+    "rating": "12A",
+    "extra": "",
+    "url": "#",
+    "color": "hard-of-hearing",
+    "active": true
+  },
+  {
+    "eventDate": "2026-06-16",
+    "time": "18:30",
+    "strand": "RIO FILM FEMINISTS",
+    "title": "GIRLFRIENDS",
+    "rating": "15",
+    "extra": "+ Q&A WITH CLAUDIA WEILL",
+    "url": "#",
+    "color": "rio-forever",
+    "active": true
+  },
+  {
+    "eventDate": "2026-06-17",
+    "time": "19:00",
+    "strand": "TV PARTY, TONIGHT!",
+    "title": "SAUL BASS: THE ART OF THE TITLE",
+    "rating": "18",
+    "extra": "+ SHORTS",
+    "url": "#",
+    "color": "special",
+    "active": true
+  },
+  {
+    "eventDate": "2026-06-18",
+    "time": "19:30",
+    "strand": "RIO FOREVER & ARABIC CINEMA CLUB",
+    "title": "PRESENTED BY NIHAL EL AASAR",
+    "rating": "NR",
+    "extra": "",
+    "url": "#",
+    "color": "rio-forever",
+    "active": true
+  },
+  {
+    "eventDate": "2026-06-20",
+    "time": "10:15",
+    "strand": "SATURDAY MORNING PICTURE CLUB",
+    "title": "SPY KIDS",
+    "rating": "U",
+    "extra": "+ KIDS CRAFT ACTIVITIES",
+    "url": "#",
+    "color": "family-flicks",
+    "active": true
+  }
+]
   "moreLinks": [
 
   {
