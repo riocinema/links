@@ -72,6 +72,16 @@ function isEventVisible(event) {
   return event.active !== false && getEventStart(event) > new Date();
 }
 
+function sortEvents(a, b) {
+  const aPinned = a.pinned === true;
+  const bPinned = b.pinned === true;
+
+  if (aPinned && !bPinned) return -1;
+  if (!aPinned && bPinned) return 1;
+
+  return getEventStart(a) - getEventStart(b);
+}
+
 function renderFeatured(items) {
   const container = document.getElementById("featured-list");
   const activeItems = items.filter(item => item.active !== false);
@@ -98,7 +108,7 @@ function renderEvents(events) {
 
   const visibleEvents = events
     .filter(isEventVisible)
-    .sort((a, b) => getEventStart(a) - getEventStart(b));
+    .sort(sortEvents);
 
   container.innerHTML = visibleEvents.map(event => {
     const dateParts = getDateParts(event.eventDate);
