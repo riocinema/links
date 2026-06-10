@@ -61,7 +61,8 @@ a {
 .rule {
   height: 1px;
   background: var(--line);
-  margin: 12px 12px 0px 0px;
+  margin: 12px 0 0;
+  width: 100%
 }
 
 .site-header {
@@ -82,7 +83,7 @@ a {
 }
 
 .section {
-  padding: 8px 12px 0px 0px;
+  padding: 8px 0 0;
 }
 
 .section h2 {
