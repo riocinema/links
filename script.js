@@ -54,6 +54,24 @@ function titleWithRating(title, rating) {
   return title.replace(/(\S+)$/, `<span class="title-lock">$1${icon}</span>`);
 }
 
+function getDateParts(eventDate) {
+  const date = new Date(`${eventDate}T12:00:00`);
+
+  return {
+    day: date.toLocaleDateString("en-GB", { weekday: "short" }).toUpperCase(),
+    date: date.toLocaleDateString("en-GB", { day: "2-digit" }),
+    month: date.toLocaleDateString("en-GB", { month: "short" }).toUpperCase()
+  };
+}
+
+function getEventStart(event) {
+  return new Date(`${event.eventDate}T${event.time}:00`);
+}
+
+function isEventVisible(event) {
+  return event.active !== false && getEventStart(event) > new Date();
+}
+
 function renderFeatured(items) {
   const container = document.getElementById("featured-list");
   const activeItems = items.filter(item => item.active !== false);
@@ -77,26 +95,33 @@ function renderFeatured(items) {
 
 function renderEvents(events) {
   const container = document.getElementById("event-list");
-  const activeEvents = events.filter(event => event.active !== false);
 
-  container.innerHTML = activeEvents.map(event => `
-    <a class="event-link accent-${event.color}" href="${event.url}">
-      <span class="calendar">
-        <span>${event.day}</span>
-        <strong>${event.date}</strong>
-        <span>${event.month}</span>
-      </span>
+  const visibleEvents = events
+    .filter(isEventVisible)
+    .sort((a, b) => getEventStart(a) - getEventStart(b));
 
-      <span class="event-info">
-        <span class="label">${event.strand}</span>
-        <strong>${titleWithRating(event.title, event.rating)}</strong>
-        ${event.extra ? `<small>${event.extra}</small>` : ""}
-        <em>${event.time}</em>
-      </span>
+  container.innerHTML = visibleEvents.map(event => {
+    const dateParts = getDateParts(event.eventDate);
 
-      <span class="arrow">${icon("arrow_forward")}</span>
-    </a>
-  `).join("");
+    return `
+      <a class="event-link accent-${event.color}" href="${event.url}">
+        <span class="calendar">
+          <span>${dateParts.day}</span>
+          <strong>${dateParts.date}</strong>
+          <span>${dateParts.month}</span>
+        </span>
+
+        <span class="event-info">
+          <span class="label">${event.strand}</span>
+          <strong>${titleWithRating(event.title, event.rating)}</strong>
+          ${event.extra ? `<small>${event.extra}</small>` : ""}
+          <em>${event.time}</em>
+        </span>
+
+        <span class="arrow">${icon("arrow_forward")}</span>
+      </a>
+    `;
+  }).join("");
 }
 
 function renderMoreLinks(links) {
