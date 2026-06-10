@@ -74,6 +74,7 @@ a {
   width: 34%;
   min-width: 145px;
   max-width: 210px;
+  transform: translateY(10px);
 }
 
 .rio-logo {
@@ -273,24 +274,28 @@ a {
 
 .site-footer {
   display: flex;
-  justify-content: space-between;
-  gap: 12px;
+  justify-content: center;
+  gap: 36px;
+  width: 100%;
+  min-width: 0;
   padding: 24px 0 10px;
 }
 
 .site-footer a {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  font-size: 11px;
-  text-decoration: underline;
-  text-transform: uppercase;
+  justify-content: center;
+}
+
+.site-footer span {
+  display: none;
 }
 
 .site-footer img {
-  height: 17px;
+  height: 20px;
   width: auto;
   display: block;
+
 }
 
 .accent-special { --accent: var(--special); }
