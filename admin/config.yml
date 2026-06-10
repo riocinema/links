@@ -19,9 +19,9 @@ collections:
           - label: "Featured Links"
             name: "featured"
             widget: "list"
-            summary: "{{fields.active}} — {{fields.label}} — {{fields.title}}"
+            summary: "{{fields.label}} — {{fields.title}}"
             fields:
-              - { label: "Show on page?", name: "active", widget: "boolean", default: true }
+              - { label: "🟢 Visible on Links Page", name: "active", widget: "boolean", default: true }
               - { label: "Label", name: "label", widget: "string" }
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
@@ -58,12 +58,26 @@ collections:
           - label: "Events"
             name: "events"
             widget: "list"
-            summary: "{{fields.active}} — {{fields.eventDate}} {{fields.time}} — {{fields.title}}"
+            summary: "{{fields.title}} — {{fields.eventDate}} {{fields.time}}"
             fields:
-              - { label: "Show on page?", name: "active", widget: "boolean", default: true }
-              - { label: "Pin to top?", name: "pinned", widget: "boolean", default: false }
-              - { label: "Event Date", name: "eventDate", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
-              - { label: "Time", name: "time", widget: "string", pattern: ['^([01]\d|2[0-3]):[0-5]\d$', "Use 24-hour time, e.g. 18:30"] }
+              - { label: "🟢 Visible on Links Page", name: "active", widget: "boolean", default: true }
+              - { label: "📌 Pin Above Other Events", name: "pinned", widget: "boolean", default: false }
+              - {
+                  label: "Event Date",
+                  name: "eventDate",
+                  widget: "datetime",
+                  hint: "This event automatically disappears after its start date and time.",
+                  date_format: "YYYY-MM-DD",
+                  time_format: false,
+                  format: "YYYY-MM-DD"
+                }
+              - {
+                  label: "Time",
+                  name: "time",
+                  widget: "string",
+                  hint: "24-hour format only, e.g. 18:30. Used for display and automatic expiry.",
+                  pattern: ['^([01]\d|2[0-3]):[0-5]\d$', "Use 24-hour time, e.g. 18:30"]
+                }
               - { label: "Strand", name: "strand", widget: "string" }
               - { label: "Title", name: "title", widget: "string" }
               - label: "BBFC Rating"
@@ -95,9 +109,9 @@ collections:
           - label: "Find Out More Links"
             name: "moreLinks"
             widget: "list"
-            summary: "{{fields.active}} — {{fields.title}}"
+            summary: "{{fields.title}}"
             fields:
-              - { label: "Show on page?", name: "active", widget: "boolean", default: true }
+              - { label: "🟢 Visible on Links Page", name: "active", widget: "boolean", default: true }
               - { label: "Title", name: "title", widget: "string" }
               - { label: "URL", name: "url", widget: "string" }
               - label: "Icon"
