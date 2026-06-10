@@ -1,10 +1,10 @@
 const bbfcRatings = {
-  U: "https://images.savoysystems.co.uk/global/images/bbfc/lrg/U.png",
-  PG: "https://images.savoysystems.co.uk/global/images/bbfc/lrg/PG.png",
+  "U": "https://images.savoysystems.co.uk/global/images/bbfc/lrg/U.png",
+  "PG": "https://images.savoysystems.co.uk/global/images/bbfc/lrg/PG.png",
   "12A": "https://images.savoysystems.co.uk/global/images/bbfc/lrg/12A.png",
-  15: "https://images.savoysystems.co.uk/global/images/bbfc/lrg/15.png",
-  18: "https://images.savoysystems.co.uk/global/images/bbfc/lrg/18.png",
-  NR: "https://mcusercontent.com/bcd2d958958984b82b6f5e110/images/ded7c49d-4c63-2ea6-a7dc-bb9ff9a16346.png"
+  "15": "https://images.savoysystems.co.uk/global/images/bbfc/lrg/15.png",
+  "18": "https://images.savoysystems.co.uk/global/images/bbfc/lrg/18.png",
+  "NR": "https://mcusercontent.com/bcd2d958958984b82b6f5e110/images/ded7c49d-4c63-2ea6-a7dc-bb9ff9a16346.png"
 };
 
 async function loadContent() {
