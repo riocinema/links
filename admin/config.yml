@@ -1,1 +1,116 @@
+backend:
+  name: github
+  repo: riocinema/links
+  branch: main
+  base_url: YOUR_DECAP_PROXY_URL
 
+media_folder: "uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "settings"
+    label: "Rio Links Page"
+    files:
+      - name: "content"
+        label: "Page Content"
+        file: "content.json"
+        format: "json"
+        fields:
+          - label: "Featured Links"
+            name: "featured"
+            widget: "list"
+            fields:
+              - { label: "Active", name: "active", widget: "boolean", default: true }
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
+              - { label: "URL", name: "url", widget: "string" }
+              - label: "Colour"
+                name: "color"
+                widget: "select"
+                options:
+                  - "special"
+                  - "classic-matinee"
+                  - "carers-babies"
+                  - "hard-of-hearing"
+                  - "pink-palace"
+                  - "family-flicks"
+                  - "rio-forever"
+              - label: "Icon"
+                name: "icon"
+                widget: "select"
+                options:
+                  - "star"
+                  - "newspaper"
+                  - "mail"
+                  - "shopping_bag"
+                  - "confirmation_number"
+                  - "campaign"
+                  - "groups"
+                  - "favorite"
+                  - "celebration"
+                  - "volunteer_activism"
+                  - "movie"
+                  - "local_movies"
+                  - "event"
+
+          - label: "Events"
+            name: "events"
+            widget: "list"
+            fields:
+              - { label: "Active", name: "active", widget: "boolean", default: true }
+              - { label: "Pinned", name: "pinned", widget: "boolean", default: false }
+              - { label: "Event Date", name: "eventDate", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+              - { label: "Time", name: "time", widget: "string", pattern: ['^([01]\d|2[0-3]):[0-5]\d$', "Use 24-hour time, e.g. 18:30"] }
+              - { label: "Strand", name: "strand", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - label: "BBFC Rating"
+                name: "rating"
+                widget: "select"
+                required: false
+                options:
+                  - ""
+                  - "U"
+                  - "PG"
+                  - "12A"
+                  - "15"
+                  - "18"
+                  - "NR"
+              - { label: "Extra Line", name: "extra", widget: "string", required: false }
+              - { label: "URL", name: "url", widget: "string" }
+              - label: "Colour"
+                name: "color"
+                widget: "select"
+                options:
+                  - "special"
+                  - "classic-matinee"
+                  - "carers-babies"
+                  - "hard-of-hearing"
+                  - "pink-palace"
+                  - "family-flicks"
+                  - "rio-forever"
+
+          - label: "Find Out More Links"
+            name: "moreLinks"
+            widget: "list"
+            fields:
+              - { label: "Active", name: "active", widget: "boolean", default: true }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "URL", name: "url", widget: "string" }
+              - label: "Icon"
+                name: "icon"
+                widget: "select"
+                options:
+                  - "star"
+                  - "newspaper"
+                  - "mail"
+                  - "shopping_bag"
+                  - "confirmation_number"
+                  - "campaign"
+                  - "groups"
+                  - "favorite"
+                  - "celebration"
+                  - "volunteer_activism"
+                  - "movie"
+                  - "theatres"
+                  - "event"
