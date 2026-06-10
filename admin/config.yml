@@ -21,7 +21,7 @@ collections:
             widget: "list"
             summary: "{{fields.label}} — {{fields.title}}"
             fields:
-              - { label: "🟢 Visible on Links Page", name: "active", widget: "boolean", default: true }
+              - { label: "Visible on Links Page", name: "active", widget: "boolean", default: true }
               - { label: "Label", name: "label", widget: "string" }
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Subtitle", name: "subtitle", widget: "string", required: false }
@@ -60,8 +60,8 @@ collections:
             widget: "list"
             summary: "{{fields.title}} — {{fields.eventDate}} {{fields.time}}"
             fields:
-              - { label: "🟢 Visible on Links Page", name: "active", widget: "boolean", default: true }
-              - { label: "📌 Pin Above Other Events", name: "pinned", widget: "boolean", default: false }
+              - { label: "Visible on Links Page", name: "active", widget: "boolean", default: true }
+              - { label: "Pin Event", name: "pinned", widget: "boolean", default: false }
               - {
                   label: "Event Date",
                   name: "eventDate",
@@ -111,7 +111,7 @@ collections:
             widget: "list"
             summary: "{{fields.title}}"
             fields:
-              - { label: "🟢 Visible on Links Page", name: "active", widget: "boolean", default: true }
+              - { label: "Visible on Links Page", name: "active", widget: "boolean", default: true }
               - { label: "Title", name: "title", widget: "string" }
               - { label: "URL", name: "url", widget: "string" }
               - label: "Icon"
