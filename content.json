@@ -133,21 +133,30 @@
 ],
   "moreLinks": [
 
-  {
-
-    "title": "Become a Member",
-
-    "url": "#",
-
-    "icon": "star",
-
+    {
+    "title": "View our full What's On",
+    "url": "https://riocinema.org.uk/Rio.dll/WhatsOn",
+    "icon": "theatres",
     "active": true
+  },
+    
+    {
+    "title": "Become a Rio Member today",
+    "url": "https://riocinema.org.uk/Rio.dll/Page?p=1745&m=m",
+    "icon": "star",
+    "active": true
+  },
 
+    {
+    "title": "Sign up to our weekly newsletter",
+    "url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_731486.TcsWebTab_731487",
+    "icon": "mail",
+    "active": true
   },
 
   {
-    "title": "Merch",
-    "url": "#",
+    "title": "Get your limited edition Merch",
+    "url": "https://www.instagram.com/p/DZIDQK2iANa/",
     "icon": "shopping_bag",
     "active": true
   },
@@ -157,20 +166,8 @@
     "url": "#",
     "icon": "newspaper",
     "active": true
-  },
-
-  {
-    "title": "Newsletter",
-    "url": "#",
-    "icon": "mail",
-    "active": true
-  },
-
-  {
-    "title": "Gift Vouchers",
-    "url": "#",
-    "icon": "confirmation_number",
-    "active": true
   }
+
+  
 ]
 }
