@@ -6,7 +6,7 @@
       "subtitle": "EXPLORE THE YEAR-LONG PROGRAMME",
       "url": "#",
       "color": "rio-forever",
-      "icon": "★",
+      "icon": "star",
       "active": true
     },
     {
@@ -15,7 +15,7 @@
       "subtitle": "READ OUR LATEST FEATURE",
       "url": "#",
       "color": "special",
-      "icon": "▤",
+      "icon": "newspaper",
       "active": true
     }
   ],
@@ -143,35 +143,45 @@
     }
   ],
   "moreLinks": [
-    {
-      "title": "Become a Member",
-      "url": "#",
-      "icon": "☆",
-      "active": true
-    },
-    {
-      "title": "Merch",
-      "url": "#",
-      "icon": "▢",
-      "active": true
-    },
-    {
-      "title": "Rio Forever in the Press",
-      "url": "#",
-      "icon": "▤",
-      "active": true
-    },
-    {
-      "title": "Newsletter",
-      "url": "#",
-      "icon": "✉",
-      "active": true
-    },
-    {
-      "title": "Gift Vouchers",
-      "url": "#",
-      "icon": "▣",
-      "active": true
-    }
-  ]
+
+  {
+
+    "title": "Become a Member",
+
+    "url": "#",
+
+    "icon": "star",
+
+    "active": true
+
+  },
+
+  {
+    "title": "Merch",
+    "url": "#",
+    "icon": "shopping_bag",
+    "active": true
+  },
+
+  {
+    "title": "Rio Forever in the Press",
+    "url": "#",
+    "icon": "newspaper",
+    "active": true
+  },
+
+  {
+    "title": "Newsletter",
+    "url": "#",
+    "icon": "mail",
+    "active": true
+  },
+
+  {
+    "title": "Gift Vouchers",
+    "url": "#",
+    "icon": "confirmation_number",
+    "active": true
+  }
+]
 }
