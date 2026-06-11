@@ -4,7 +4,7 @@
       "label": "RIO FOREVER",
       "title": "50 Years of the Rio",
       "subtitle": "CHECK OUT OUR PROGRAMME!",
-      "url": "#",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn",
       "color": "rio-forever",
       "icon": "star",
       "active": true
@@ -16,7 +16,7 @@
       "url": "#",
       "color": "special",
       "icon": "newspaper",
-      "active": true
+      "active": false
     },
     {
       "active": true,
@@ -29,18 +29,6 @@
     }
   ],
   "events": [
-    {
-      "color": "family-flicks",
-      "strand": "SATURDAY MORNING PICTURE CLUB",
-      "active": true,
-      "eventDate": "2026-06-11",
-      "time": "15:15",
-      "url": "www.riocinema.org.uk",
-      "extra": "+ Q&A WITH REESE WITHERSPOON",
-      "title": "TEST EVENT",
-      "pinned": true,
-      "rating": "18"
-    },
     {
       "color": "rio-forever",
       "strand": "RIO FOREVER & CATEGORY H",
@@ -107,7 +95,7 @@
       "active": true,
       "eventDate": "2026-06-15",
       "time": "17:30",
-      "url": "#",
+      "url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2604178.TcsSection_936",
       "extra": "",
       "title": "DISCLOSURE DAY",
       "pinned": false,
@@ -119,7 +107,7 @@
       "active": true,
       "eventDate": "2026-06-16",
       "time": "18:30",
-      "url": "#",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2578837",
       "extra": "+ Q&A WITH CLAUDIA WEILL",
       "title": "GIRLFRIENDS",
       "pinned": false,
@@ -131,7 +119,7 @@
       "active": true,
       "eventDate": "2026-06-17",
       "time": "19:00",
-      "url": "#",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2629770",
       "extra": "+ SHORTS",
       "title": "SAUL BASS: THE ART OF THE TITLE",
       "pinned": false,
@@ -143,7 +131,7 @@
       "active": true,
       "eventDate": "2026-06-18",
       "time": "19:30",
-      "url": "#",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2591188",
       "extra": "",
       "title": "PRESENTED BY NIHAL EL AASAR",
       "pinned": false,
@@ -155,7 +143,7 @@
       "active": true,
       "eventDate": "2026-06-20",
       "time": "10:15",
-      "url": "#",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2517239",
       "extra": "+ KIDS CRAFT ACTIVITIES",
       "title": "SPY KIDS",
       "pinned": false,
