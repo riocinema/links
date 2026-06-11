@@ -21,6 +21,18 @@
   ],
   "events": [
     {
+      "color": "family-flicks",
+      "strand": "SATURDAY MORNING PICTURE CLUB",
+      "active": true,
+      "eventDate": "2026-06-11",
+      "time": "15:15",
+      "url": "www.riocinema.org.uk",
+      "extra": "+ Q&A WITH REESE WITHERSPOON",
+      "title": "TEST EVENT",
+      "pinned": true,
+      "rating": "18"
+    },
+    {
       "color": "rio-forever",
       "strand": "RIO FOREVER & CATEGORY H",
       "active": true,
