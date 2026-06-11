@@ -17,6 +17,15 @@
       "color": "special",
       "icon": "newspaper",
       "active": true
+    },
+    {
+      "active": true,
+      "title": "Become A Rio Cinema Trustee",
+      "label": "JOB LISTINGS",
+      "subtitle": "JOIN OUR BOARD TODAY!",
+      "url": "https://www.independentcinemaoffice.org.uk/jobs/trustees-28/",
+      "color": "carers-babies",
+      "icon": "volunteer_activism"
     }
   ],
   "events": [
