@@ -20,12 +20,12 @@
     },
     {
       "active": true,
-      "title": "Become A Rio Cinema Trustee",
-      "label": "JOB LISTINGS",
-      "subtitle": "JOIN OUR BOARD TODAY!",
+      "title": "Become A Rio Trustee",
+      "label": "JOB OPENING",
+      "subtitle": "FIND OUT MORE AND APPLY!",
       "url": "https://www.independentcinemaoffice.org.uk/jobs/trustees-28/",
       "color": "carers-babies",
-      "icon": "volunteer_activism"
+      "icon": "favorite"
     }
   ],
   "events": [
@@ -153,7 +153,7 @@
   "moreLinks": [
     {
       "active": true,
-      "title": "Find out What's On",
+      "title": "What's On",
       "url": "https://riocinema.org.uk/Rio.dll/WhatsOn",
       "icon": "local_movies"
     },
