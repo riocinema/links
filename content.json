@@ -148,6 +148,18 @@
       "title": "SPY KIDS",
       "pinned": false,
       "rating": "U"
+    },
+    {
+      "color": "rio-forever",
+      "strand": "RIO FOREVER",
+      "active": true,
+      "eventDate": "2026-07-16",
+      "time": "19:30",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2589284",
+      "extra": "A/V SHOW",
+      "title": "DJ YODA GOES TO THE MOVIES",
+      "pinned": true,
+      "rating": "18"
     }
   ],
   "moreLinks": [
