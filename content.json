@@ -110,7 +110,7 @@
       "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2517209",
       "extra": "DIRECTOR'S CUT",
       "title": "LITTLE SHOP OF HORRORS",
-      "pinned": false,
+      "pinned": true,
       "rating": "18"
     },
     {
@@ -121,6 +121,17 @@
       "time": "19:30",
       "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2629624",
       "title": "DAVID HOCKNEY: A BIGGER SPLASH",
+      "pinned": false,
+      "rating": "18"
+    },
+    {
+      "color": "rio-forever",
+      "strand": "RIO FOREVER & NEVER WATCHING MOVIES",
+      "active": true,
+      "eventDate": "2026-07-08",
+      "time": "18:40",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2614640",
+      "title": "SPLENDOR",
       "pinned": false,
       "rating": "18"
     }
