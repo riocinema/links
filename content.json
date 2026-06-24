@@ -21,133 +21,73 @@
     {
       "active": true,
       "title": "Become A Rio Trustee",
-      "label": "WE’RE HIRING",
-      "subtitle": "FIND OUT MORE AND APPLY!",
-      "url": "https://www.independentcinemaoffice.org.uk/jobs/trustees-28/",
+      "label": "OPPORTUNITIES",
+      "subtitle": "FIND OUT MORE & APPLY",
+      "url": "https://opportunities.riocinema.org.uk",
       "color": "carers-babies",
       "icon": "favorite"
     }
   ],
   "events": [
     {
-      "color": "rio-forever",
-      "strand": "RIO FOREVER & CATEGORY H",
-      "active": true,
-      "eventDate": "2026-06-12",
-      "time": "23:30",
-      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2403027",
-      "extra": "DOUBLE BILL",
-      "title": "SISTERS & ALMOST DEAD",
-      "pinned": false,
-      "rating": "18"
-    },
-    {
-      "color": "rio-forever",
-      "strand": "RIO FOREVER & VARDA FILM CLUB",
-      "active": true,
-      "eventDate": "2026-06-13",
-      "time": "17:00",
-      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2559496",
-      "extra": "+ Q&A WITH ROSALIE VARDA",
-      "title": "FACES PLACES",
-      "pinned": false,
-      "rating": "12A"
-    },
-    {
-      "color": "rio-forever",
-      "strand": "RIO FOREVER & NEUROSPICY",
-      "active": true,
-      "eventDate": "2026-06-14",
-      "time": "14:00",
-      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2560278",
-      "extra": "+ Q&A WITH INDUSTRY GUESTS",
-      "title": "NEUROSPICY III",
-      "pinned": false,
-      "rating": "15"
-    },
-    {
-      "color": "carers-babies",
-      "strand": "CARERS & BABIES",
-      "active": true,
-      "eventDate": "2026-06-15",
-      "time": "11:00",
-      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2629234",
-      "extra": "",
-      "title": "DISCLOSURE DAY",
-      "pinned": false,
-      "rating": "12A"
-    },
-    {
-      "color": "classic-matinee",
-      "strand": "CLASSIC MATINEE",
-      "active": true,
-      "eventDate": "2026-06-15",
-      "time": "14:30",
-      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2266028",
-      "extra": "",
-      "title": "JAWS",
-      "pinned": false,
-      "rating": "12A"
-    },
-    {
       "color": "hard-of-hearing",
       "strand": "HARD OF HEARING",
       "active": true,
-      "eventDate": "2026-06-15",
-      "time": "17:30",
-      "url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2604178.TcsSection_936",
+      "eventDate": "2026-06-29",
+      "time": "18:15",
+      "url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2671293.TcsSection_1299",
       "extra": "",
-      "title": "DISCLOSURE DAY",
-      "pinned": false,
-      "rating": "12A"
-    },
-    {
-      "color": "rio-forever",
-      "strand": "RIO FOREVER & RIO FILM FEMINISTS",
-      "active": true,
-      "eventDate": "2026-06-16",
-      "time": "18:30",
-      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2578837",
-      "extra": "+ Q&A WITH CLAUDIA WEILL",
-      "title": "GIRLFRIENDS",
+      "title": "BACKROOMS",
       "pinned": false,
       "rating": "15"
     },
     {
       "color": "special",
-      "strand": "TV PARTY, TONIGHT!",
+      "strand": "DAY OF TRANS VISIBILITY",
+      "active": true,
+      "eventDate": "2026-07-06",
+      "time": "18:30",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2671086",
+      "extra": "",
+      "title": "WE'LL GO DOWN IN HISTORY",
+      "pinned": false,
+      "rating": "12A"
+    },
+    {
+      "color": "special",
+      "strand": "CINEMA MENTIRÉ",
       "active": true,
       "eventDate": "2026-06-17",
       "time": "19:00",
-      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2629770",
-      "extra": "+ SHORTS",
-      "title": "SAUL BASS: THE ART OF THE TITLE",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2604017",
+      "extra": "+ INTRO",
+      "title": "SALOME'S LAST DANCE",
       "pinned": false,
       "rating": "18"
     },
     {
       "color": "rio-forever",
-      "strand": "RIO FOREVER & ARABIC CINEMA CLUB",
+      "strand": "SLACKER SHAKESPEARE",
       "active": true,
-      "eventDate": "2026-06-18",
-      "time": "19:30",
-      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2591188",
-      "extra": "",
-      "title": "PRESENTED BY NIHAL EL AASAR",
+      "eventDate": "2026-07-05",
+      "time": "14:00",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2572974",
+      "extra": "+ INTRO",
+      "title": "ROMEO + JULIET",
       "pinned": false,
-      "rating": "NR"
+      "rating": "12A"
     },
     {
       "color": "family-flicks",
       "strand": "SATURDAY MORNING PICTURE CLUB",
       "active": true,
-      "eventDate": "2026-06-20",
+      "eventDate": "2026-07-18",
       "time": "10:15",
-      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2517239",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2671158",
       "extra": "+ KIDS CRAFT ACTIVITIES",
-      "title": "SPY KIDS",
+      "title": "COOL RUNNINGS",
       "pinned": false,
-      "rating": "U"
+      "rating": "PG"
     },
     {
       "color": "rio-forever",
@@ -158,6 +98,29 @@
       "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2589284",
       "extra": "A/V SHOW",
       "title": "DJ YODA GOES TO THE MOVIES",
+      "pinned": true,
+      "rating": "18"
+    },
+    {
+      "color": "rio-forever",
+      "strand": "RIO FOREVER & QUEER HORROR NIGHTS",
+      "active": true,
+      "eventDate": "2026-07-11",
+      "time": "23:30",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2517209",
+      "extra": "DIRECTOR'S CUT",
+      "title": "LITTLE SHOP OF HORRORS",
+      "pinned": false,
+      "rating": "18"
+    },
+    {
+      "color": "pink-palace",
+      "strand": "PINK PALACE",
+      "active": true,
+      "eventDate": "2026-06-29",
+      "time": "19:30",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2629624",
+      "title": "DAVID HOCKNEY: A BIGGER SPLASH",
       "pinned": true,
       "rating": "18"
     }
@@ -186,6 +149,12 @@
       "url": "https://www.instagram.com/p/DZIDQK2iANa/",
       "icon": "shopping_bag",
       "active": true
+    },
+    {
+      "active": true,
+      "title": "Opportunities at the Rio",
+      "url": "opportunities.riocinema.org.uk",
+      "icon": "groups"
     }
   ]
 }
