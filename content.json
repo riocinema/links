@@ -134,6 +134,18 @@
       "title": "SPLENDOR",
       "pinned": false,
       "rating": "18"
+    },
+    {
+      "color": "special",
+      "strand": " ",
+      "active": true,
+      "eventDate": "2026-07-07",
+      "time": "19:00",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2629770",
+      "extra": "+ Q&A WITH MISAN HARRIMAN",
+      "title": "SHOOT THE PEOPLE",
+      "pinned": true,
+      "rating": "15"
     }
   ],
   "moreLinks": [
