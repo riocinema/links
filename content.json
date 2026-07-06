@@ -30,6 +30,18 @@
   ],
   "events": [
     {
+      "color": "rio-forever",
+      "strand": "RIO FOREVER",
+      "active": true,
+      "eventDate": "2026-07-16",
+      "time": "19:30",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2589284",
+      "extra": "A/V SHOW",
+      "title": "DJ YODA GOES TO THE MOVIES",
+      "pinned": true,
+      "rating": "18"
+    },
+    {
       "color": "hard-of-hearing",
       "strand": "HARD OF HEARING",
       "active": true,
@@ -40,18 +52,6 @@
       "title": "BACKROOMS",
       "pinned": false,
       "rating": "15"
-    },
-    {
-      "color": "special",
-      "strand": " ",
-      "active": true,
-      "eventDate": "2026-07-06",
-      "time": "18:30",
-      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2671086",
-      "extra": "",
-      "title": "WE'LL GO DOWN IN HISTORY",
-      "pinned": false,
-      "rating": "12A"
     },
     {
       "color": "special",
@@ -66,18 +66,6 @@
       "rating": "18"
     },
     {
-      "color": "rio-forever",
-      "strand": "SLACKER SHAKESPEARE",
-      "active": true,
-      "eventDate": "2026-07-05",
-      "time": "14:00",
-      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2572974",
-      "extra": "+ INTRO",
-      "title": "ROMEO + JULIET",
-      "pinned": false,
-      "rating": "12A"
-    },
-    {
       "color": "family-flicks",
       "strand": "SATURDAY MORNING PICTURE CLUB",
       "active": true,
@@ -88,18 +76,6 @@
       "title": "COOL RUNNINGS",
       "pinned": false,
       "rating": "PG"
-    },
-    {
-      "color": "rio-forever",
-      "strand": "RIO FOREVER",
-      "active": true,
-      "eventDate": "2026-07-16",
-      "time": "19:30",
-      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2589284",
-      "extra": "A/V SHOW",
-      "title": "DJ YODA GOES TO THE MOVIES",
-      "pinned": true,
-      "rating": "18"
     },
     {
       "color": "rio-forever",
