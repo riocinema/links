@@ -84,6 +84,16 @@
       "color": "special",
       "eventDate": "2026-07-23",
       "time": "18:30"
+    },
+    {
+      "active": true,
+      "pinned": true,
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=671861",
+      "eventDate": "2026-07-12",
+      "time": "18:40",
+      "strand": "Special Event",
+      "title": "How To Get On With Everybody + Q&A",
+      "color": "special"
     }
   ],
   "moreLinks": [
