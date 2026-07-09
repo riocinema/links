@@ -30,18 +30,6 @@
   ],
   "events": [
     {
-      "color": "rio-forever",
-      "strand": "RIO FOREVER",
-      "active": true,
-      "eventDate": "2026-07-16",
-      "time": "19:30",
-      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2589284",
-      "extra": "A/V SHOW",
-      "title": "DJ YODA GOES TO THE MOVIES",
-      "pinned": true,
-      "rating": "18"
-    },
-    {
       "color": "hard-of-hearing",
       "strand": "HARD OF HEARING",
       "active": true,
@@ -52,18 +40,6 @@
       "title": "BACKROOMS",
       "pinned": false,
       "rating": "15"
-    },
-    {
-      "color": "special",
-      "strand": "CINEMA MENTIRÉ",
-      "active": true,
-      "eventDate": "2026-06-17",
-      "time": "19:00",
-      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2604017",
-      "extra": "+ INTRO",
-      "title": "SALOME'S LAST DANCE",
-      "pinned": false,
-      "rating": "18"
     },
     {
       "color": "family-flicks",
@@ -99,18 +75,6 @@
       "title": "DAVID HOCKNEY: A BIGGER SPLASH",
       "pinned": false,
       "rating": "18"
-    },
-    {
-      "color": "special",
-      "strand": " ",
-      "active": true,
-      "eventDate": "2026-07-07",
-      "time": "19:00",
-      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2629770",
-      "extra": "+ Q&A WITH MISAN HARRIMAN",
-      "title": "SHOOT THE PEOPLE",
-      "pinned": true,
-      "rating": "15"
     }
   ],
   "moreLinks": [
