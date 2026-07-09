@@ -66,15 +66,14 @@
       "rating": "18"
     },
     {
-      "color": "pink-palace",
-      "strand": "PINK PALACE",
       "active": true,
-      "eventDate": "2026-06-29",
-      "time": "19:30",
-      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2629624",
-      "title": "DAVID HOCKNEY: A BIGGER SPLASH",
-      "pinned": false,
-      "rating": "18"
+      "pinned": true,
+      "title": "T A P E Collective: BOUCHRA (Preview)",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2681426",
+      "eventDate": "2026-07-29",
+      "time": "18:30",
+      "color": "special",
+      "strand": "Special Event"
     }
   ],
   "moreLinks": [
