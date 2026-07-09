@@ -74,6 +74,16 @@
       "time": "18:30",
       "color": "special",
       "strand": "Special Event"
+    },
+    {
+      "active": true,
+      "pinned": true,
+      "title": "Divine Hammer (UK Premiere)",
+      "strand": "Special Event",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2582603",
+      "color": "special",
+      "eventDate": "2026-07-23",
+      "time": "18:30"
     }
   ],
   "moreLinks": [
