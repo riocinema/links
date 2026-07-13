@@ -30,18 +30,6 @@
   ],
   "events": [
     {
-      "color": "hard-of-hearing",
-      "strand": "HARD OF HEARING",
-      "active": true,
-      "eventDate": "2026-06-29",
-      "time": "18:15",
-      "url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2671293.TcsSection_1299",
-      "extra": "",
-      "title": "BACKROOMS",
-      "pinned": false,
-      "rating": "15"
-    },
-    {
       "color": "family-flicks",
       "strand": "SATURDAY MORNING PICTURE CLUB",
       "active": true,
@@ -52,18 +40,6 @@
       "title": "COOL RUNNINGS",
       "pinned": false,
       "rating": "PG"
-    },
-    {
-      "color": "rio-forever",
-      "strand": "RIO FOREVER & QUEER HORROR NIGHTS",
-      "active": true,
-      "eventDate": "2026-07-11",
-      "time": "23:30",
-      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2517209",
-      "extra": "DIRECTOR'S CUT",
-      "title": "LITTLE SHOP OF HORRORS",
-      "pinned": true,
-      "rating": "18"
     },
     {
       "active": true,
