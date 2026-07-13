@@ -94,6 +94,17 @@
       "strand": "Special Event",
       "title": "How To Get On With Everybody + Q&A",
       "color": "special"
+    },
+    {
+      "color": "classic-matinee",
+      "strand": "CLASSIC MATINEE",
+      "active": true,
+      "eventDate": "2026-08-10",
+      "time": "14:00",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2628915",
+      "title": "CLASSIC MATINEE: THELMA & LOUISE",
+      "pinned": true,
+      "rating": "15"
     }
   ],
   "moreLinks": [
