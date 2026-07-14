@@ -48,20 +48,21 @@
       "eventDate": "2026-07-29",
       "time": "18:30",
       "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2681426",
-      "extra": "(PREVIEW)",
+      "extra": "PREVIEW",
       "title": "BOUCHRA",
       "pinned": false,
       "rating": ""
     },
     {
-      "active": true,
-      "pinned": false,
-      "title": "Divine Hammer (UK Premiere)",
-      "strand": "TRANSMISSIONS",
-      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2582603",
       "color": "special",
+      "strand": "TRANSMISSIONS",
+      "active": true,
       "eventDate": "2026-07-23",
-      "time": "18:30"
+      "time": "18:30",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2582603",
+      "extra": "UK Premiere",
+      "title": "Divine Hammer ",
+      "pinned": false
     },
     {
       "color": "rio-forever",
