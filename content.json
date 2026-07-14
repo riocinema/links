@@ -57,7 +57,7 @@
       "active": true,
       "pinned": false,
       "title": "Divine Hammer (UK Premiere)",
-      "strand": "Special Event",
+      "strand": "TRANSMISSIONS",
       "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2582603",
       "color": "special",
       "eventDate": "2026-07-23",
@@ -119,6 +119,18 @@
       "title": "THE INVITE",
       "pinned": false,
       "rating": "15"
+    },
+    {
+      "color": "pink-palace",
+      "strand": "PINK PALACE",
+      "active": true,
+      "eventDate": "2026-07-23",
+      "time": "19:30",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2671033",
+      "extra": "+ SHORTS",
+      "title": "JEAN COCTEAU: THE BLOOD OF A POET",
+      "pinned": false,
+      "rating": "18"
     }
   ],
   "moreLinks": [
