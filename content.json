@@ -10,6 +10,15 @@
       "active": true
     },
     {
+      "active": true,
+      "title": "THE ODYSSEY",
+      "label": "BOOK NOW",
+      "subtitle": "SHOWING FROM FRIDAY 17 JULY",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2671225",
+      "color": "carers-babies",
+      "icon": "movie"
+    },
+    {
       "label": "READ ALL ABOUT IT",
       "title": "Rio in the Press #02",
       "subtitle": "REVISIT OUR FAVOURITE FEATURES",
@@ -17,15 +26,6 @@
       "color": "special",
       "icon": "newspaper",
       "active": true
-    },
-    {
-      "active": true,
-      "title": "Become A Rio Trustee",
-      "label": "OPPORTUNITIES",
-      "subtitle": "FIND OUT MORE & APPLY",
-      "url": "https://opportunities.riocinema.org.uk",
-      "color": "carers-babies",
-      "icon": "favorite"
     }
   ],
   "events": [
@@ -42,18 +42,20 @@
       "rating": "PG"
     },
     {
+      "color": "special",
+      "strand": "T A P E COLLECTIVE",
       "active": true,
-      "pinned": true,
-      "title": "T A P E Collective: BOUCHRA (Preview)",
-      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2681426",
       "eventDate": "2026-07-29",
       "time": "18:30",
-      "color": "special",
-      "strand": "Special Event"
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2681426",
+      "extra": "(PREVIEW)",
+      "title": "BOUCHRA",
+      "pinned": false,
+      "rating": ""
     },
     {
       "active": true,
-      "pinned": true,
+      "pinned": false,
       "title": "Divine Hammer (UK Premiere)",
       "strand": "Special Event",
       "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2582603",
@@ -62,14 +64,16 @@
       "time": "18:30"
     },
     {
+      "color": "rio-forever",
+      "strand": "SLACKER SHAKESPEARE",
       "active": true,
-      "pinned": true,
-      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=671861",
-      "eventDate": "2026-07-12",
-      "time": "18:40",
-      "strand": "Special Event",
-      "title": "How To Get On With Everybody + Q&A",
-      "color": "special"
+      "eventDate": "2026-07-19",
+      "time": "14:00",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2572995",
+      "extra": "+ INTRODUCTION",
+      "title": "SHAKESPEARE IN LOVE",
+      "pinned": false,
+      "rating": "15"
     },
     {
       "color": "classic-matinee",
@@ -79,7 +83,41 @@
       "time": "14:00",
       "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2628915",
       "title": "CLASSIC MATINEE: THELMA & LOUISE",
-      "pinned": true,
+      "pinned": false,
+      "rating": "15"
+    },
+    {
+      "color": "carers-babies",
+      "strand": "CARERS & BABIES",
+      "active": true,
+      "eventDate": "2026-07-20",
+      "time": "11:00",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2720035",
+      "title": "THE ODYSSEY",
+      "pinned": false,
+      "rating": "15"
+    },
+    {
+      "color": "rio-forever",
+      "strand": "CATEGORY H PRESENTS RIO FOREVER / NEVER EVER",
+      "active": true,
+      "eventDate": "2026-07-17",
+      "time": "23:30",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2403084",
+      "extra": "DOUBLE BILL",
+      "title": "BLOOD AND BONES",
+      "pinned": false,
+      "rating": "18"
+    },
+    {
+      "color": "hard-of-hearing",
+      "strand": "HARD OF HEARING",
+      "active": true,
+      "eventDate": "2026-07-20",
+      "time": "15:50",
+      "url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2719504.TcsSection_1299",
+      "title": "THE INVITE",
+      "pinned": false,
       "rating": "15"
     }
   ],
