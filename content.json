@@ -30,18 +30,6 @@
   ],
   "events": [
     {
-      "color": "family-flicks",
-      "strand": "SATURDAY MORNING PICTURE CLUB",
-      "active": true,
-      "eventDate": "2026-07-18",
-      "time": "10:15",
-      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2671158",
-      "extra": "+ KIDS CRAFT ACTIVITIES",
-      "title": "COOL RUNNINGS",
-      "pinned": false,
-      "rating": "PG"
-    },
-    {
       "color": "special",
       "strand": "T A P E COLLECTIVE",
       "active": true,
@@ -63,18 +51,6 @@
       "extra": "UK Premiere",
       "title": "Divine Hammer ",
       "pinned": false
-    },
-    {
-      "color": "rio-forever",
-      "strand": "SLACKER SHAKESPEARE",
-      "active": true,
-      "eventDate": "2026-07-19",
-      "time": "14:00",
-      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2572995",
-      "extra": "+ INTRODUCTION",
-      "title": "SHAKESPEARE IN LOVE",
-      "pinned": false,
-      "rating": "15"
     },
     {
       "color": "classic-matinee",
@@ -99,18 +75,6 @@
       "rating": "15"
     },
     {
-      "color": "rio-forever",
-      "strand": "CATEGORY H: RIO FOREVER / NEVER EVER",
-      "active": true,
-      "eventDate": "2026-07-17",
-      "time": "23:30",
-      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2403084",
-      "extra": "DOUBLE BILL",
-      "title": "BLOOD AND BONES",
-      "pinned": false,
-      "rating": "18"
-    },
-    {
       "color": "hard-of-hearing",
       "strand": "HARD OF HEARING",
       "active": true,
@@ -132,6 +96,16 @@
       "title": "JEAN COCTEAU: THE BLOOD OF A POET",
       "pinned": false,
       "rating": "18"
+    },
+    {
+      "active": true,
+      "pinned": true,
+      "title": "SATURDAY MORNING PICTURE CLUB - MUPPET TREASURE ISLAND",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2671218",
+      "color": "family-flicks",
+      "eventDate": "2026-08-22",
+      "time": "10:15",
+      "strand": "Saturday Morning Picture Club"
     }
   ],
   "moreLinks": [
