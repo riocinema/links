@@ -21,8 +21,8 @@
     {
       "label": "READ ALL ABOUT IT",
       "title": "Rio in the Press #02",
-      "subtitle": "REVISIT OUR FAVOURITE FEATURES",
-      "url": "https://thecoldmagazine.co.uk/orlando-forever-an-interview-with-sally-potter-at-the-rio/?v=01c054100e77",
+      "subtitle": "WHY COMMUNITY CINEMA HAS NEVER MATTERED MORE...",
+      "url": "https://www.run-riot.com/articles/blogs/rosie-greatorex-why-community-cinema-has-never-mattered-more-rio-cinemas-50-year-celebration/",
       "color": "special",
       "icon": "newspaper",
       "active": true
@@ -30,27 +30,28 @@
   ],
   "events": [
     {
-      "color": "special",
-      "strand": "T A P E COLLECTIVE",
+      "color": "pink-palace",
+      "strand": "PINK PALACE",
       "active": true,
-      "eventDate": "2026-07-29",
-      "time": "18:30",
-      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2681426",
+      "eventDate": "2026-08-06",
+      "time": "19:30",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2702185",
       "extra": "PREVIEW",
-      "title": "BOUCHRA",
+      "title": "BOOM!",
       "pinned": false,
-      "rating": ""
+      "rating": "12A"
     },
     {
-      "color": "special",
-      "strand": "TRANSMISSIONS",
+      "color": "carers-babies",
+      "strand": "CARERS & BABIES",
       "active": true,
-      "eventDate": "2026-07-23",
-      "time": "18:30",
-      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2582603",
-      "extra": "UK Premiere",
-      "title": "Divine Hammer ",
-      "pinned": false
+      "eventDate": "2026-08-03",
+      "time": "11:00",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2749440",
+      "extra": "",
+      "title": "ISH",
+      "pinned": false,
+      "rating": "15"
     },
     {
       "color": "classic-matinee",
@@ -64,13 +65,13 @@
       "rating": "15"
     },
     {
-      "color": "carers-babies",
-      "strand": "CARERS & BABIES",
+      "color": "special",
+      "strand": "RIO STAFF SELECTS",
       "active": true,
-      "eventDate": "2026-07-20",
-      "time": "11:00",
-      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2720035",
-      "title": "THE ODYSSEY",
+      "eventDate": "2026-07-25",
+      "time": "20:30",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2739011",
+      "title": "ALMOST FAMOUS",
       "pinned": false,
       "rating": "15"
     },
@@ -78,10 +79,10 @@
       "color": "hard-of-hearing",
       "strand": "HARD OF HEARING",
       "active": true,
-      "eventDate": "2026-07-20",
-      "time": "15:50",
-      "url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2719504.TcsSection_1299",
-      "title": "THE INVITE",
+      "eventDate": "2026-08-03",
+      "time": "18:30",
+      "url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2742908.TcsSection_1299",
+      "title": "ISH",
       "pinned": false,
       "rating": "15"
     },
@@ -89,13 +90,13 @@
       "color": "pink-palace",
       "strand": "PINK PALACE",
       "active": true,
-      "eventDate": "2026-07-23",
+      "eventDate": "2026-08-13",
       "time": "19:30",
-      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2671033",
-      "extra": "+ SHORTS",
-      "title": "JEAN COCTEAU: THE BLOOD OF A POET",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2760309",
+      "extra": "",
+      "title": "JEAN COCTEAU: THE TESTAMENT OF ORPHEUS",
       "pinned": false,
-      "rating": "18"
+      "rating": "PG"
     },
     {
       "active": true,
@@ -106,6 +107,77 @@
       "eventDate": "2026-08-22",
       "time": "10:15",
       "strand": "Saturday Morning Picture Club"
+    },
+    {
+      "color": "family-flicks",
+      "strand": "SATURDAY MORNING PICTURE CLUB",
+      "active": true,
+      "eventDate": "2026-08-08",
+      "time": "10:15",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2671161",
+      "extra": "+ CRAFT ACTIVITIES",
+      "title": "ET THE EXTRA-TERRESTRIAL",
+      "pinned": false,
+      "rating": "U"
+    },
+    {
+      "color": "rio-forever",
+      "strand": "RIO FOREVER & CATEGORY H",
+      "active": true,
+      "eventDate": "2026-08-21",
+      "time": "20:30",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2671009",
+      "extra": "LATE NIGHT DOUBLE BILL",
+      "title": "THE WICKER MAN + NOROI THE CURSE",
+      "pinned": false,
+      "rating": "18"
+    },
+    {
+      "color": "rio-forever",
+      "strand": "RIO FOREVER & JAPANESE FILM CLUB",
+      "active": true,
+      "eventDate": "2026-08-29",
+      "time": "17:45",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2719501",
+      "title": "THE NIGHT IS SHORT, WALK ON GIRL",
+      "pinned": false,
+      "rating": "15"
+    },
+    {
+      "color": "special",
+      "strand": "DOC'N ROLL",
+      "active": true,
+      "eventDate": "2026-09-12",
+      "time": "18:00",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2699704",
+      "extra": "+ Q&A",
+      "title": "MORE PUNK THAN PUNK + AFTER EIGHT: THE STORY OF SATPAL RAM ",
+      "pinned": false,
+      "rating": "18"
+    },
+    {
+      "color": "rio-forever",
+      "strand": "CONTEMPORARY 75 & CLUB DES FEMMES",
+      "active": true,
+      "eventDate": "2026-09-13",
+      "time": "14:00",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2719415",
+      "extra": "+ DISCUSSION",
+      "title": "CARRY GREENHAM HOME + MARCH TO ALDERMASTON",
+      "pinned": false,
+      "rating": "15"
+    },
+    {
+      "color": "pink-palace",
+      "strand": "PINK PALACE'S 4TH BIRTHDAY",
+      "active": true,
+      "eventDate": "2026-09-10",
+      "time": "20:30",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2511247",
+      "extra": "+ DISCUSSION AND PARTY",
+      "title": "THE BIRDCAGE",
+      "pinned": false,
+      "rating": "15"
     }
   ],
   "moreLinks": [
