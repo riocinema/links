@@ -12,16 +12,16 @@
     {
       "active": true,
       "title": "THE ODYSSEY",
-      "label": "BOOK NOW",
-      "subtitle": "SHOWING FROM FRIDAY 17 JULY",
+      "label": "BOOK YOUR TICKETS",
+      "subtitle": "CURRENTLY SHOWING",
       "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2671225",
-      "color": "carers-babies",
+      "color": "family-flicks",
       "icon": "movie"
     },
     {
       "label": "READ ALL ABOUT IT",
-      "title": "Rio in the Press #02",
-      "subtitle": "WHY COMMUNITY CINEMA HAS NEVER MATTERED MORE...",
+      "title": "Rio in the Press #03",
+      "subtitle": "WHY COMMUNITY CINEMA MATTERS",
       "url": "https://www.run-riot.com/articles/blogs/rosie-greatorex-why-community-cinema-has-never-mattered-more-rio-cinemas-50-year-celebration/",
       "color": "special",
       "icon": "newspaper",
@@ -60,7 +60,7 @@
       "eventDate": "2026-08-10",
       "time": "14:00",
       "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2628915",
-      "title": "CLASSIC MATINEE: THELMA & LOUISE",
+      "title": "THELMA & LOUISE",
       "pinned": false,
       "rating": "15"
     },
@@ -68,7 +68,7 @@
       "color": "special",
       "strand": "RIO STAFF SELECTS",
       "active": true,
-      "eventDate": "2026-07-25",
+      "eventDate": "2026-08-25",
       "time": "20:30",
       "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2739011",
       "title": "ALMOST FAMOUS",
@@ -99,14 +99,16 @@
       "rating": "PG"
     },
     {
-      "active": true,
-      "pinned": true,
-      "title": "SATURDAY MORNING PICTURE CLUB - MUPPET TREASURE ISLAND",
-      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2671218",
       "color": "family-flicks",
+      "strand": "Saturday Morning Picture Club",
+      "active": true,
       "eventDate": "2026-08-22",
       "time": "10:15",
-      "strand": "Saturday Morning Picture Club"
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2671218",
+      "extra": "+ CRAFT ACTIVITIES",
+      "title": "MUPPET TREASURE ISLAND",
+      "pinned": false,
+      "rating": "PG"
     },
     {
       "color": "family-flicks",
@@ -116,7 +118,7 @@
       "time": "10:15",
       "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2671161",
       "extra": "+ CRAFT ACTIVITIES",
-      "title": "ET THE EXTRA-TERRESTRIAL",
+      "title": "E.T. THE EXTRA-TERRESTRIAL",
       "pinned": false,
       "rating": "U"
     },
@@ -135,7 +137,7 @@
     {
       "color": "rio-forever",
       "strand": "RIO FOREVER & JAPANESE FILM CLUB",
-      "active": true,
+      "active": false,
       "eventDate": "2026-08-29",
       "time": "17:45",
       "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2719501",
