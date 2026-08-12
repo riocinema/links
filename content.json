@@ -30,39 +30,40 @@
   ],
   "events": [
     {
-      "color": "pink-palace",
-      "strand": "PINK PALACE",
+      "color": "rio-forever",
+      "strand": "RIO FOREVER WITH ASHLEY CLARK & DIONNE EDWARDS",
       "active": true,
-      "eventDate": "2026-08-06",
-      "time": "19:30",
-      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2702185",
+      "eventDate": "2026-09-14",
+      "time": "18:30",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2770269",
       "extra": "",
-      "title": "BOOM!",
+      "title": "GANJA AND HESS",
       "pinned": false,
-      "rating": "12A"
+      "rating": "18"
     },
     {
-      "color": "carers-babies",
-      "strand": "CARERS & BABIES",
+      "color": "rio-forever",
+      "strand": "RIO FOREVER WITH LITTLE WHITE LIES",
       "active": true,
       "eventDate": "2026-08-03",
       "time": "11:00",
-      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2749440",
-      "extra": "",
-      "title": "ISH",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2793548",
+      "extra": "35MM",
+      "title": "A CELLULOID SURPRISE #2",
       "pinned": false,
-      "rating": "15"
+      "rating": "18"
     },
     {
-      "color": "classic-matinee",
-      "strand": "CLASSIC MATINEE",
+      "color": "rio-forever",
+      "strand": "RIO FOREVER WITH ASIF KAPADIA",
       "active": true,
-      "eventDate": "2026-08-10",
-      "time": "14:00",
+      "eventDate": "2026-09-25",
+      "time": "20:30",
       "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2628915",
-      "title": "THELMA & LOUISE",
+      "extra": "35MM",
+      "title": "AUDITION",
       "pinned": false,
-      "rating": "15"
+      "rating": "18"
     },
     {
       "color": "special",
@@ -76,13 +77,14 @@
       "rating": "15"
     },
     {
-      "color": "hard-of-hearing",
-      "strand": "HARD OF HEARING",
+      "color": "rio-forever",
+      "strand": "RIO FOREVER",
       "active": true,
-      "eventDate": "2026-08-03",
+      "eventDate": "2026-09-30",
       "time": "18:30",
-      "url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2742908.TcsSection_1299",
-      "title": "ISH",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2795235",
+      "extra": "(+ Q&A WITH DEAN ATTA)",
+      "title": "NEUROSPICY IV",
       "pinned": false,
       "rating": "15"
     },
@@ -178,6 +180,40 @@
       "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2511247",
       "extra": "+ DISCUSSION AND PARTY",
       "title": "THE BIRDCAGE",
+      "pinned": false,
+      "rating": "15"
+    },
+    {
+      "color": "rio-forever",
+      "strand": "RIO FOREVER & MARGEAUX LABAT",
+      "active": true,
+      "eventDate": "2026-09-09",
+      "time": "20:30",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2770309",
+      "title": "THE WATERMELON WOMAN",
+      "pinned": false,
+      "rating": "15"
+    },
+    {
+      "color": "rio-forever",
+      "strand": "RIO FOREVER WITH BEN WHISHAW",
+      "active": true,
+      "eventDate": "2026-10-16",
+      "time": "20:15",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2770278",
+      "title": "GOODBYE, DRAGON INN",
+      "pinned": false,
+      "rating": "PG"
+    },
+    {
+      "color": "rio-forever",
+      "strand": "RIO FOREVER WITH PINK PALACE & CONTEMPORARY FILMS",
+      "active": true,
+      "eventDate": "2026-08-24",
+      "time": "18:30",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2702688",
+      "extra": "(+ Q&A WITH ROB EPSTEIN)",
+      "title": "THE TIMES OF HARVEY MILK",
       "pinned": false,
       "rating": "15"
     }
