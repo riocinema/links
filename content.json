@@ -101,30 +101,6 @@
       "rating": "PG"
     },
     {
-      "color": "family-flicks",
-      "strand": "Saturday Morning Picture Club",
-      "active": true,
-      "eventDate": "2026-08-22",
-      "time": "10:15",
-      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2671218",
-      "extra": "+ CRAFT ACTIVITIES",
-      "title": "MUPPET TREASURE ISLAND",
-      "pinned": false,
-      "rating": "PG"
-    },
-    {
-      "color": "family-flicks",
-      "strand": "SATURDAY MORNING PICTURE CLUB",
-      "active": true,
-      "eventDate": "2026-08-08",
-      "time": "10:15",
-      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2671161",
-      "extra": "+ CRAFT ACTIVITIES",
-      "title": "E.T. THE EXTRA-TERRESTRIAL",
-      "pinned": false,
-      "rating": "U"
-    },
-    {
       "color": "rio-forever",
       "strand": "RIO FOREVER & CATEGORY H",
       "active": true,
@@ -215,6 +191,17 @@
       "extra": "(+ Q&A WITH ROB EPSTEIN)",
       "title": "THE TIMES OF HARVEY MILK",
       "pinned": false,
+      "rating": "15"
+    },
+    {
+      "color": "special",
+      "strand": "HORROR",
+      "active": true,
+      "eventDate": "2026-08-23",
+      "time": "15:30",
+      "url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2793777.TcsSection_936",
+      "title": "Jane Schoenbrun Triple Bill introduced by Molly Miles",
+      "pinned": true,
       "rating": "15"
     }
   ],
