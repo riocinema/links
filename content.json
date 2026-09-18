@@ -10,15 +10,6 @@
       "active": true
     },
     {
-      "active": false,
-      "title": "THE ODYSSEY",
-      "label": "BOOK YOUR TICKETS",
-      "subtitle": "CURRENTLY SHOWING",
-      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2671225",
-      "color": "family-flicks",
-      "icon": "movie"
-    },
-    {
       "label": "READ ALL ABOUT IT",
       "title": "Rio in the Press #03",
       "subtitle": "WHY COMMUNITY CINEMA MATTERS",
@@ -29,30 +20,6 @@
     }
   ],
   "events": [
-    {
-      "color": "rio-forever",
-      "strand": "RIO FOREVER WITH ASHLEY CLARK & DIONNE EDWARDS",
-      "active": true,
-      "eventDate": "2026-09-14",
-      "time": "18:30",
-      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2770269",
-      "extra": "",
-      "title": "GANJA AND HESS",
-      "pinned": false,
-      "rating": "18"
-    },
-    {
-      "color": "rio-forever",
-      "strand": "RIO FOREVER WITH LITTLE WHITE LIES",
-      "active": true,
-      "eventDate": "2026-08-03",
-      "time": "11:00",
-      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2793548",
-      "extra": "35MM",
-      "title": "A CELLULOID SURPRISE #2",
-      "pinned": false,
-      "rating": "18"
-    },
     {
       "color": "rio-forever",
       "strand": "RIO FOREVER WITH ASIF KAPADIA",
@@ -66,15 +33,15 @@
       "rating": "18"
     },
     {
-      "color": "special",
-      "strand": "RIO STAFF SELECTS",
+      "color": "rio-forever",
+      "strand": "RIO FOREVER",
       "active": true,
-      "eventDate": "2026-08-25",
-      "time": "20:30",
-      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2739011",
-      "title": "ALMOST FAMOUS",
+      "eventDate": "2026-10-18",
+      "time": "17:20",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2796447",
+      "title": "RETURN TO THE TATLER + VARIETY",
       "pinned": false,
-      "rating": "15"
+      "rating": "18"
     },
     {
       "color": "rio-forever",
@@ -92,58 +59,59 @@
       "color": "pink-palace",
       "strand": "PINK PALACE",
       "active": true,
-      "eventDate": "2026-08-13",
+      "eventDate": "2026-10-07",
       "time": "19:30",
-      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2760309",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2881330",
       "extra": "",
-      "title": "JEAN COCTEAU: THE TESTAMENT OF ORPHEUS",
-      "pinned": false,
-      "rating": "PG"
-    },
-    {
-      "color": "rio-forever",
-      "strand": "RIO FOREVER & CATEGORY H",
-      "active": true,
-      "eventDate": "2026-08-21",
-      "time": "20:30",
-      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2671009",
-      "extra": "LATE NIGHT DOUBLE BILL",
-      "title": "THE WICKER MAN + NOROI THE CURSE",
+      "title": "DADDY DEAREST",
       "pinned": false,
       "rating": "18"
     },
     {
-      "color": "rio-forever",
-      "strand": "RIO FOREVER & JAPANESE FILM CLUB",
-      "active": false,
-      "eventDate": "2026-08-29",
-      "time": "17:45",
-      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2719501",
-      "title": "THE NIGHT IS SHORT, WALK ON GIRL",
+      "color": "special",
+      "strand": " ",
+      "active": true,
+      "eventDate": "2026-10-15",
+      "time": "20:30",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2861189",
+      "extra": "+ BOOK LAUNCH",
+      "title": "CANDY MAN",
       "pinned": false,
       "rating": "15"
     },
     {
-      "color": "special",
-      "strand": "DOC'N ROLL",
+      "color": "family-flicks",
+      "strand": "SATURDAY MORNING PICTURE CLUB",
       "active": true,
-      "eventDate": "2026-09-12",
-      "time": "18:00",
-      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2699704",
-      "extra": "+ Q&A",
-      "title": "MORE PUNK THAN PUNK + AFTER EIGHT: THE STORY OF SATPAL RAM ",
+      "eventDate": "2026-09-26",
+      "time": "11:00",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2890992",
+      "extra": "+ CRAFT ACTIVITIES",
+      "title": "KIKI'S DELIVERY SERVICE",
       "pinned": false,
-      "rating": "18"
+      "rating": "U"
     },
     {
-      "color": "rio-forever",
-      "strand": "CONTEMPORARY 75 & CLUB DES FEMMES",
+      "color": "special",
+      "strand": "BLACK HISTORY MONTH",
       "active": true,
-      "eventDate": "2026-09-13",
-      "time": "14:00",
-      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2719415",
-      "extra": "+ DISCUSSION",
-      "title": "CARRY GREENHAM HOME + MARCH TO ALDERMASTON",
+      "eventDate": "2026-10-04",
+      "time": "14:30",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2886857",
+      "extra": "+ Q&A",
+      "title": "FEARLESS",
+      "pinned": false,
+      "rating": "12A"
+    },
+    {
+      "color": "special",
+      "strand": "TIM & BARRY:",
+      "active": true,
+      "eventDate": "2026-10-03",
+      "time": "20:00",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2861072",
+      "extra": "",
+      "title": "JUST JAM X VIDEO DUBZ",
       "pinned": false,
       "rating": "15"
     },
@@ -160,15 +128,15 @@
       "rating": "15"
     },
     {
-      "color": "rio-forever",
-      "strand": "RIO FOREVER & MARGEAUX LABAT",
+      "color": "special",
+      "strand": "WE ARE PARABLE",
       "active": true,
-      "eventDate": "2026-09-09",
-      "time": "20:30",
-      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2770309",
-      "title": "THE WATERMELON WOMAN",
+      "eventDate": "2026-09-27",
+      "time": "18:00",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2860979",
+      "title": "MASTERCLASS IN BLACK BRITISH MUSIC VIDEOS",
       "pinned": false,
-      "rating": "15"
+      "rating": "18"
     },
     {
       "color": "rio-forever",
@@ -182,27 +150,16 @@
       "rating": "PG"
     },
     {
-      "color": "rio-forever",
-      "strand": "RIO FOREVER WITH PINK PALACE & CONTEMPORARY FILMS",
+      "color": "family-flicks",
+      "strand": "HACKNEY CHILDREN'S FILM FEST",
       "active": true,
-      "eventDate": "2026-08-24",
+      "eventDate": "2026-10-31",
       "time": "18:30",
-      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2702688",
-      "extra": "(+ Q&A WITH ROB EPSTEIN)",
-      "title": "THE TIMES OF HARVEY MILK",
+      "url": "https://riocinema.org.uk/Rio.dll/WhatsOn?f=2889355",
+      "extra": "",
+      "title": "THE LITTLE VAMPIRE",
       "pinned": false,
-      "rating": "15"
-    },
-    {
-      "color": "special",
-      "strand": "HORROR",
-      "active": true,
-      "eventDate": "2026-08-23",
-      "time": "15:30",
-      "url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2793777.TcsSection_936",
-      "title": "Jane Schoenbrun Triple Bill introduced by Molly Miles",
-      "pinned": true,
-      "rating": "15"
+      "rating": "U"
     }
   ],
   "moreLinks": [
