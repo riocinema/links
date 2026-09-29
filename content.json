@@ -11,12 +11,21 @@
     },
     {
       "label": "READ ALL ABOUT IT",
-      "title": "Rio in the Press #03",
-      "subtitle": "WHY COMMUNITY CINEMA MATTERS",
-      "url": "https://www.run-riot.com/articles/blogs/rosie-greatorex-why-community-cinema-has-never-mattered-more-rio-cinemas-50-year-celebration/",
+      "title": "BRITISH CINEMATOGRAPHER",
+      "subtitle": "RIO CONTINUES 50TH CELEBRATIONS",
+      "url": "https://britishcinematographer.co.uk/rio-cinema-continues-50th-celebrations/",
       "color": "special",
       "icon": "newspaper",
       "active": true
+    },
+    {
+      "active": true,
+      "label": "READ ALL ABOUT IT",
+      "icon": "newspaper",
+      "color": "pink-palace",
+      "url": "https://www.londonxlondon.com/rio-cinema-turns-50-this-autumn-with-ben-whishaw-asif-kapadia-and-a-bespoke-ipa-joining-the-celebrations/",
+      "title": "LONDON X LONDON",
+      "subtitle": "BEN WHISHAW, ASIF KAPADIA & A BESPOKE IPA!"
     }
   ],
   "events": [
