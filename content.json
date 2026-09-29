@@ -14,7 +14,7 @@
       "title": "BRITISH CINEMATOGRAPHER",
       "subtitle": "RIO CONTINUES 50TH CELEBRATIONS",
       "url": "https://britishcinematographer.co.uk/rio-cinema-continues-50th-celebrations/",
-      "color": "special",
+      "color": "hard-of-hearing",
       "icon": "newspaper",
       "active": true
     },
@@ -22,10 +22,10 @@
       "active": true,
       "label": "READ ALL ABOUT IT",
       "icon": "newspaper",
-      "color": "pink-palace",
+      "color": "hard-of-hearing",
       "url": "https://www.londonxlondon.com/rio-cinema-turns-50-this-autumn-with-ben-whishaw-asif-kapadia-and-a-bespoke-ipa-joining-the-celebrations/",
       "title": "LONDON X LONDON",
-      "subtitle": "BEN WHISHAW, ASIF KAPADIA & A BESPOKE IPA!"
+      "subtitle": "BEN WHISHAW, ASIF KAPADIA & AN IPA!"
     }
   ],
   "events": [
