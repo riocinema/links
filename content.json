@@ -10,12 +10,12 @@
       "active": true
     },
     {
-      "label": "READ ALL ABOUT IT",
-      "title": "BRITISH CINEMATOGRAPHER",
-      "subtitle": "RIO CONTINUES 50TH CELEBRATIONS",
-      "url": "https://britishcinematographer.co.uk/rio-cinema-continues-50th-celebrations/",
-      "color": "hard-of-hearing",
-      "icon": "newspaper",
+      "label": "SIGN UP TO OUR MAILING LIST",
+      "title": "GET OUR WEEKLY NEWSLETTER",
+      "subtitle": "DON'T MISS OUT ON ANYTHING!",
+      "url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_731486.TcsWebTab_731487",
+      "color": "family-flicks",
+      "icon": "groups",
       "active": true
     },
     {
