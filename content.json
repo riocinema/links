@@ -26,6 +26,15 @@
       "url": "https://www.londonxlondon.com/rio-cinema-turns-50-this-autumn-with-ben-whishaw-asif-kapadia-and-a-bespoke-ipa-joining-the-celebrations/",
       "title": "LONDON X LONDON",
       "subtitle": "BEN WHISHAW, ASIF KAPADIA & AN IPA!"
+    },
+    {
+      "active": true,
+      "title": "WATCH AMERICAN DOCTOR ",
+      "subtitle": "ON TUE 17 NOVEMBER, 18:00",
+      "label": "FREE NHS SCREENING",
+      "url": "https://www.conic.film/nhs",
+      "color": "hard-of-hearing",
+      "icon": "favorite"
     }
   ],
   "events": [
